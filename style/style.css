@@ -1,0 +1,51 @@
+/* Se o nome da página estiver em uma tag <h1>, por exemplo: */
+h1 {
+    font-size: 36px; /* Altere o valor para o tamanho desejado */
+    color: #ff6347; /* Substitua pelo código de cor que deseja, aqui é um tom de vermelho */
+  }
+
+/* Estilos básicos */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2 {
+    text-align: right;
+}
+
+/* Estilos para a barra de navegação */
+nav {
+    background-color: #043dfb; /* Cor de fundo da barra */
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none; /* Remove as bolinhas da lista */
+    display: flex;
+    justify-content: center; /* Centraliza os links */
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 15px; /* Espaço entre os itens */
+}
+
+nav ul li a {
+    color: white; /* Cor do texto dos links */
+    text-decoration: none; /* Remove o sublinhado */
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    color: #FFD700; /* Cor ao passar o mouse sobre o link */
+}
+
+/* Mudar a cor de fundo da página */
+body {
+    background-color: #f2f5f6; /* Cor de fundo, você pode usar hexadecimal, nomes de cores, RGB ou HSL */
+    font-family: Arial, sans-serif;
+}
+
